@@ -1,4 +1,4 @@
-# 🪙 Token Dashboard
+# 🪙 Coin Atlas
 
 A modern crypto portfolio and market dashboard built with React 19, TypeScript, Vite, Tailwind, Wagmi, RainbowKit, Moralis, and CoinGecko APIs.
 This project demonstrates my skills in frontend engineering, state management, API integration, and data visualization, while delivering a polished and responsive user experience.
