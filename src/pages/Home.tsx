@@ -116,7 +116,7 @@ export const Home: React.FC = () => {
           titleClassName="text-lg font-semibold"
         >
           {trending.isLoading || !trending.data
-            ? Array.from({ length: 5 }).map((_, i) => (
+            ? Array.from({ length: 4 }).map((_, i) => (
                 <SmTokenCardSkeleton key={i} />
               ))
             : trending.data.map(token => (
@@ -140,7 +140,7 @@ export const Home: React.FC = () => {
           titleClassName="text-lg font-semibold"
         >
           {tokens.isLoading
-            ? Array.from({ length: 5 }).map((_, i) => (
+            ? Array.from({ length: 4 }).map((_, i) => (
                 <SmTokenCardSkeleton key={i} />
               ))
             : gainers.map(token => (
